@@ -2,17 +2,27 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #cccbcb;
+    background-color:white;
   }
-  .mainDiv{
-    
-      width: 800px;
-      height: 600px;
+  .frontCard{
+      width: 446px;
+      height: 243px;
       position: absolute;
-      top: 53%;
-      left: 50%;
+      top: 31%;
+      left: 20%;
       transform: translate(-50%, -50%);
       background-color: white;
+      border-radius: 8px;
     
     }
+  .backCard{
+      width: 446px;
+      height: 243px;
+      position: absolute;
+      top: 64%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      border-radius: 8px;
+  }
   
