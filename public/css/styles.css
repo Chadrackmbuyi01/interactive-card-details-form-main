@@ -14,7 +14,7 @@ body {
       background-color: white;
       border-radius: 8px;
     
-    }
+  }
   .backCard{
       width: 446px;
       height: 243px;
@@ -24,5 +24,56 @@ body {
       transform: translate(-50%, -50%);
       background-color: white;
       border-radius: 8px;
+  }
+  .formDiv{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 53%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    
+  }
+  .block{
+    display: inline-block;
+    position: relative;
+    font-size: small;
+    padding-block: 10px;
+    margin-right: 20px;
+    font-family: Poppins-Regular;
+  }
+  .cardDetails{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  .submit{
+    background-color: rgb(28, 12, 71);
+    color: white;
+    border: none;
+    height: 45px;
+    width: 407px;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: opacity 0.15s;
+  }
+  footer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    margin-top: 130px;
+    color: white;
+  }
+  .divFooter{
+    background-color: rgb(17, 12, 50);
+    height: 100px;
   }
   
