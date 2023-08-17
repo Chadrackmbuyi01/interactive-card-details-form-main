@@ -71,6 +71,32 @@ body {
   .submit:active{
     opacity: 0.5; /* || active pseudo-class or style will play by clicking on the element */
   }
+  .container{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 53%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  }
+  .container img{
+    width: 70px;
+    position: relative;
+    padding-left: 23%;
+  }
+  .continue{
+    background-color: rgb(28, 12, 71);
+    color: white;
+    border: none;
+    height: 45px;
+    width: 300px;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: opacity 0.15s;
+  }
   footer{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
