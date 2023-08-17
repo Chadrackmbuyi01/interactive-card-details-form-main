@@ -65,6 +65,12 @@ body {
     font-size: 15px;
     transition: opacity 0.15s;
   }
+  .submit:hover{
+    opacity: 0.8; /* || opacity does the fading action. It goes to 0 - 1 */
+  }
+  .submit:active{
+    opacity: 0.5; /* || active pseudo-class or style will play by clicking on the element */
+  }
   footer{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
