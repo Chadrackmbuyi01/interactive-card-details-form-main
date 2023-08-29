@@ -14,23 +14,39 @@
 
 <body>
   <div class="mainDiv">
-    <img src="/images/bg-main-desktop.png" alt="" class="imgOne">
+    <img  src="/images/bg-main-desktop.png" alt="" class="imgOne">
       <div class="frontCard">
         <img src="/images/bg-card-front.png" alt="bg-card-front">
+
+        <p class="output1" id="numberOutput">0000&nbsp;0000&nbsp;0000&nbsp;0000</p>
+        <p class="output2" id="nameOutput">CHAD SMITH</p>
+        <p class="output3" id="monthOutput">01</p>
+        <p class="output4" id="yearOutput">24</p>
+
+
+        <!-- <input class="output1" type="text" disabled="disabled" minlength="1" maxlength="13" 
+        style="width: 400px; height: 30px;"><br>
+        <input class="output2" type="text" disabled="disabled" id="nameOutput" minlength="1" maxlength="25"
+        style="width: 200px; height: 20px;">
+        <input class="output3" type="text" disabled="disabled" minlength="1" maxlength="2"
+        style="width: 30px; height: 20px;">
+        <input class="output4" type="text" disabled="disabled" minlength="1" maxlength="2"
+        style="width: 30px; height: 20px;"> -->
       </div>
       <div class="backCard">
         <img src="/images/bg-card-back.png" alt="bg-card-back">
       </div>
       <div class="formDiv">
         <p class="cardDetails">CARDHOLDER NAME</p>
-        <input type="text" required title="This field is required" name="cardName" id="name"
+        <input type="text" required title="This field is required" name="cardName" id="nameInput"
         required="required" minlength="1" maxlength="25" style="width: 400px; height: 30px; 
         border-radius: 6px; border-color: #6d9de3; font-family: 'Courier New', Courier, monospace; 
         font-weight: lighter; font-size: medium;">
+        <span id="message" style="color: red; font-size: smaller;"></span>
 
         <p class="cardDetails">CARD NUMBER</p>
         <input type="Textnumber" required title="This field requires Number only!" name="cardNumber" id="number"
-        required="required" minlength="1" maxlength="25" style="width: 400px; height: 30px; 
+        required="required" minlength="1" maxlength="13" style="width: 400px; height: 30px; 
         border-radius: 6px; border-color: #6d9de3; font-family: 'Courier New', Courier, monospace; 
         font-weight: lighter; font-size: medium;"><br>
 
@@ -53,13 +69,11 @@
           border-radius: 4px; border-color: #e9957e; font-family: Arial, Helvetica, sans-serif;"/>
         </div>
         <div id="" class="btnDiv">
-          <button id="" class="submit">Confirm</button>
+          <button onclick="cardFunctionality()" id="" class="submit">Confirm</button>
         </div>
 
       </div>
   </div>
-  <div class="divFooter">
-  <footer><p>Copyright@ChadSmith & @UmbaJ</p></footer>
-  </div>
+  <script src="/public/script/script.js" charset="UTF-8"></script>
 </body>
 </html>
