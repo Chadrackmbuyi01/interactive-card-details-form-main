@@ -1,11 +1,19 @@
 nameInput.oninput = showValue;
 numberInput.oninput = showValue2;
+monthInput.oninput = showValue3;
+yearInput.oninput = showValue4;
     
 function showValue(){
     nameOutput.value = this.value;
 }
 function showValue2(){
     numberOutput.value = this.value;
+}
+function showValue3(){
+    monthOutput.value = this.value;
+}
+function showValue4(){
+    yearOutput.value = this.value;
 }
 
 

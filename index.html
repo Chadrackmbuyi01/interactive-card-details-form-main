@@ -23,14 +23,14 @@
         <p class="output3" id="monthOutput">01</p> -->
         <!-- <p class="output4" id="yearOutput">24</p> -->
 
-        <input class="output1" id="numberOutput" type="text" minlength="1" maxlength="13" 
-        style="color: black; width: 400px; height: 30px;"><br>
-        <input class="output2"  id="nameOutput" minlength="1" maxlength="25"
-        style="color: black; width: 200px; height: 20px;">
-        <input class="output3" type="text" minlength="1" maxlength="2"
-        style="color: black; width: 30px; height: 20px;">
-        <input class="output4" type="text" minlength="1" maxlength="2"
-        style="color: black; width: 30px; height: 20px;">
+        <input class="output1" id="numberOutput" type="number" minlength="1" maxlength="13" 
+        placeholder="0000 0000 0000 0000" style="color: black; width: 400px; height: 30px;"><br><br>
+        <input class="output2" id="nameOutput" type="text" minlength="1" maxlength="25"
+        placeholder="CARDHOLDER" style="color: black; width: 200px; height: 20px;">
+        <input class="output3" id="monthOutput" type="text" minlength="1" maxlength="2"
+        placeholder="00 /" style="color: black; width: 30px; height: 20px;">
+        <input class="output4" id="yearOutput" type="text" minlength="1" maxlength="2"
+        placeholder="00" style="color: black; width: 30px; height: 20px;">
       </div>
       <div class="backCard">
         <img src="/images/bg-card-back.png" alt="bg-card-back">
@@ -52,19 +52,19 @@
 
         <div id="" class="block">
           <p class="title">Exp.[MM]</p>
-          <input type="text" required title="This field is required" name="date" id="date" placeholder="MM"
+          <input type="text" required title="This field is required" name="date" id="monthInput" placeholder="MM"
           required="required" minlength="1" maxlength="2" style="width: 80px;height: 30px;
           border-radius: 4px; border-color: #e9957e;"/>
         </div>
         <div id="" class="block">
           <p class="title">[YY]</p>
-          <input type="text" required title="This field is required" name="month" id="month" placeholder="YY"
+          <input type="text" required title="This field is required" name="month" id="yearInput" placeholder="YY"
           required="required" minlength="1" maxlength="2" style="width: 80px;height: 30px;
           border-radius: 4px; border-color: #e9957e;"/>
         </div>
         <div id="" class="block">
           <p class="title">CVC</p>
-          <input type="text" required title="This field is required" name="month" id="month" placeholder="e.g: 123"
+          <input type="text" required title="This field is required" name="month" id="cvcInput" placeholder="e.g: 123"
           required="required" minlength="1" maxlength="3" style="width: 175px;height: 30px;
           border-radius: 4px; border-color: #e9957e; font-family: Arial, Helvetica, sans-serif;"/>
         </div>

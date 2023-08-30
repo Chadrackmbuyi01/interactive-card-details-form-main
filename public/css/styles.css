@@ -98,11 +98,12 @@ body {
     transition: opacity 0.15s;
   }
   .output1, .output2, .output3, .output4{
-    color: white;
+    color: black;
     background-color: transparent;
-    /* border: none;   fix alignment first*/
+    border: none;
   }
   .output2, .output3, .output4{
+    position: relative;
     display: inline
   }
   .output1{
@@ -112,30 +113,28 @@ body {
     letter-spacing: .02em;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    margin-left: 0px;
+    margin-left: 20px;
   }
   .output2{
     position: relative;
     bottom: 130px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .output3{
     bottom: 130px;
     position: relative;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 200px;
+    margin-left: 114px;
     
-  
   }
   .output4{
     bottom: 130px;
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     margin-left: 2px;
-    
-    
+     
   }
   /*
   Usable when needed
