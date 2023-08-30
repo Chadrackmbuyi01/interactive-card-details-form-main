@@ -134,15 +134,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     margin-left: 2px;
-     
   }
-  /*
-  Usable when needed
-  footer{ 
+  .output5{
     position: relative;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    margin-top: 130px;
-    color:black;
-  }*/
+    bottom: 142px;
+    margin-left: 350px;
+    background-color: transparent;
+    border: none;
+  }
