@@ -99,6 +99,8 @@ body {
   }
   .output1, .output2, .output3, .output4{
     color: white;
+    background-color: transparent;
+    /* border: none;   fix alignment first*/
   }
   .output2, .output3, .output4{
     display: inline
