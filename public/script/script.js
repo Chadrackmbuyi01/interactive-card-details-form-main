@@ -24,16 +24,25 @@ function cardFunctionality () {
 
     let action = document.getElementById("nameInput").value;
     let action2 = document.getElementById("numberInput").value;
+    let action3 = document.getElementById("monthInput").value;
+    let action4 = document.getElementById("yearInput").value;
+    let action5 = document.getElementById("cvcInput").value;
 
       if(action == null || action == ""){
-          document.getElementById("message").innerHTML="field required";
+          document.getElementById("message").innerHTML = "field required";
          return false;
       } else if(action2 == null || action2 == ""){
-          document.getElementById("message").innerHTML="field required";
+          document.getElementById("message").innerHTML = "field required";
           return false;
-      }else{
-      document.getElementById("nameOutput").innerHTML = action;
-      document.getElementById("numberOutput").innerHTML = action2;
+      } else if (action3 == null || action3 == ""){
+        document.getElementById("message").innerHTML = "field required";
+      } else if (action4 == null || action4 == ""){
+        document.getElementById("message").innerHTML = "field required";
+      } else if (action5 == null || action5 == ""){
+        document.getElementById("message").innerHTML = "field required";
+      } else{
+        location.href='complete-state.html';
+        
       }
   }
     
